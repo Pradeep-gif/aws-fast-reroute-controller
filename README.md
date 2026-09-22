@@ -17,8 +17,4 @@ javac -d out src/main/java/com/portfolio/reroute/*.java src/test/java/com/portfo
 java -ea -cp out com.portfolio.reroute.FastRerouteControllerTest
 ```
 
-## Resume wording
-
-**Fast Reroute Controller — Java portfolio project:** Built a Java 17 traffic-engineering prototype that detects failed or congested network paths, selects healthy alternates using latency and residual-capacity signals, and produces auditable reroute decisions; added automated tests and GitHub Actions CI.
-
 This is a simulation only; it does not connect to AWS infrastructure.
